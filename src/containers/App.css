@@ -252,6 +252,24 @@ body {
   .modal-content{
     width: auto;
   }
+
+  .info1{
+    padding-left: 35px;
+  }
+
+  .title{
+    margin-left:25px;
+  }
+
+  .price{
+    margin-left: 10px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-right: 0px;
+  }
+
 }
 
 @media (max-width: 626px) {
