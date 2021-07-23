@@ -53,8 +53,8 @@ body {
   background-color: #2058bb;
   cursor: pointer;
   transition: 0.3s;
-  margin-left: 10%;
-  width: 80%;
+  margin-left: 19%;
+  width: 50%;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -62,6 +62,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 25px;
 }
 
 .search-item {
@@ -250,6 +251,14 @@ body {
 @media (max-width: 575px){
   .logo_img {
     filter: brightness(1000);
+  }
+
+  .search-item {
+    justify-content: center;
+  }
+
+  .form-group{
+    width: 80%;
   }
 
   .info {
