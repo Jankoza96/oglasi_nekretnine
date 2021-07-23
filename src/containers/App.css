@@ -64,13 +64,6 @@ body {
   font-size: 16px;
 }
 
-@media (max-width: 626px) {
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-  }
-}
-
 .search-item {
   display: flex;
   justify-content: space-between;
@@ -225,4 +218,45 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+
+@media (max-width: 1024px){
+  .search-result {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px){
+  .search-input{
+    width: 80%;
+  }
+
+  .logo_img {
+    filter: brightness(1.7);
+  }
+
+  .loading_spinner{
+    background-color: red;
+  }
+}
+
+@media (max-width: 575px){
+  .logo_img {
+    filter: brightness(1000);
+  }
+
+  .info {
+    padding-left: 3px;
+  }
+  .modal-content{
+    width: auto;
+  }
+}
+
+@media (max-width: 626px) {
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+  }
 }

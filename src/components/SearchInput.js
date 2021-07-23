@@ -38,7 +38,7 @@ const SearchInput = (props) => {
         } else {
             if (loading) {
                 return (
-                    <img src="images/spinner.svg" alt="loading svg" />
+                    <img className="loading_spinner" src="images/spinner.svg" alt="loading svg" />
                 );
             } else {
                 return data.slice(0, 10).map((item) => (
