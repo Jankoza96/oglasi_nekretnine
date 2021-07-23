@@ -241,6 +241,12 @@ body {
   }
 }
 
+@media (max-width: 630px){
+  .modal-content{
+    width: auto;
+  }
+}
+
 @media (max-width: 575px){
   .logo_img {
     filter: brightness(1000);
@@ -248,9 +254,6 @@ body {
 
   .info {
     padding-left: 3px;
-  }
-  .modal-content{
-    width: auto;
   }
 
   .info1{
